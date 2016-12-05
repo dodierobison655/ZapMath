@@ -1,0 +1,259 @@
+h1{
+	text-align:center;
+	font-size:42px;
+	font-family: Tahoma;
+	color:#196E7F;
+}
+h2{
+	text-align:center;
+	font-size:40px;
+	font-family: Tahoma;
+	
+}
+#pp{
+	position:absolute;
+	top:75%;
+	left:45%;
+	font-size:24px;
+	visibility:hidden;
+}
+#points{
+	position:absolute;
+	top:75%;
+	left:55%;
+	font-size:24px;
+	visibility:hidden;
+}
+body{
+	background-color:#33DDFF;
+	font-family:Tahoma;
+}
+.container{
+	width:800px;
+	height:800px;
+}
+.box{
+	position:absolute;
+	left:25%;
+	background-color:#E0EAEC;
+	width:800px;
+	height:800px;
+	border:3px solid #196E7F;
+	border-radius:10px;
+}
+.game{
+	position:absolute;
+	background-color:#E0EAEC;
+	width:75%;
+	height:75%;
+	left:13%;
+	transform:(-50%,-50%);
+	border:3px solid #196E7F;
+	border-radius:10px;
+}
+#leftnum{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:25%;
+	font-size:36px;
+	visibility:hidden;
+}
+#add{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:36%;
+	font-size:36px;
+	visibility:hidden;
+}
+#sub{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:36%;
+	font-size:36px;
+	visibility:hidden;
+}
+#divy{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:36%;
+	font-size:36px;
+	visibility:hidden;
+}
+#mult{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:36%;
+	font-size:36px;
+	visibility:hidden;
+}
+#rightnum{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:45%;
+	font-size:36px;
+	visibility:hidden;
+}
+#equals{
+	float:left;
+	position:absolute;
+	top:45%;
+	left:55%;
+	font-size:36px;
+	visibility:hidden;
+}
+.answerdiv{
+	float:left;
+	position:absolute;
+	top:44%;
+	left:64%;
+	font-size:36px;
+	visibility:hidden;
+}
+#answer{
+	height:45px;
+	width:75px;
+	font-size:36px;
+	resize:none;
+	background-color:transparent;
+	border:2px solid black;
+	visibility:hidden;
+}
+#timer{
+	font-size:36px;
+	color:red;
+	position:absolute;
+	top:15%;
+	left:35%;
+	visibility:hidden;
+}
+#time{
+	font-size:36px;
+	color:red;
+	position:absolute;
+	top:15%;
+	left:55%;
+	visibility:hidden;
+}
+#gmovr{
+	font-size : 48px;
+	position:absolute;
+	top:20%;
+	left:30%;
+	font-family:Tahoma;
+	visibility:hidden;
+}
+#finalscore{
+	font-size : 36px;
+	font-family : Tahoma;
+	position:absolute;
+	top:55%;
+	left:22%;
+	visibility:hidden;
+}
+#pointholder{
+	position:absolute;
+	top:65%;
+	left:24%;
+	width:300px;
+	height:100px;
+	visibility:hidden;
+}
+#finalpoints{
+	font-size : 40px;
+	font-family : Tahoma;
+	color:#09CF42;
+	text-align:center;
+	visibility:hidden;
+}
+#image1{
+	position:absolute;
+	top:4%;
+	left:25%;
+}
+#image2{
+	position:absolute;
+	top:4%;
+	right:25%;
+}
+#start{
+	position:absolute;
+	font-size:36px;
+	top:25%;
+	left:35%;
+	font-family:Tahoma;
+}
+#addstart{
+	position:absolute;
+	font-size:36px;
+	top:25%;
+	left:35%;
+	font-family:Tahoma;
+	visibility:hidden;
+}
+#substart{
+	position:absolute;
+	font-size:36px;
+	top:40%;
+	left:35%;
+	font-family:Tahoma;
+	visibility:hidden;
+}
+#divstart{
+	position:absolute;
+	font-size:36px;
+	top:55%;
+	left:35%;
+	font-family:Tahoma;
+	visibility:hidden;
+}
+#multstart{
+	position:absolute;
+	font-size:36px;
+	top:70%;
+	left:35%;
+	font-family:Tahoma;
+	visibility:hidden;
+}
+a:hover{
+	color:green;
+}
+#playagain{
+	font-family:Tahoma;
+	font-size:36px;
+	position:absolute;
+	top:75%;
+	left:34%;
+	visibility:hidden;
+}
+#credit{
+	position:absolute;
+	left:15%;
+	top:86%;
+	font-size:10px;
+}
+#round{
+	font-size:24px;
+	color:purple;
+	position:absolute;
+	top:30%;
+	left:25%;
+	visibility:hidden;
+}
+#muteicon{
+	visibility:hidden;
+	position:absolute;
+	right:13%;
+	top:86%;
+}
+#unmuteicon{
+	visibility:visible;
+	position:absolute;
+	right:13%;
+	top:86%;
+}
