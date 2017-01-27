@@ -257,3 +257,11 @@ a:hover{
 	right:13%;
 	top:86%;
 }
+.link{
+	text-align:center;
+	width:100%;
+	font-size:20px;
+}
+a:hover{
+	color:#E0EAEC;
+}
